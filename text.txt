@@ -1,0 +1,20 @@
+Screen:
+The screen object represents the user's screen or display. It provides information about the user's screen, such as its dimensions and pixel density. This object is not part of the window object but is a separate global object.
+
+It provides properties like width and height to get the dimensions of the screen.
+It includes properties like availWidth and availHeight to get the available screen space, excluding taskbars or other screen elements.
+It can be used to determine the pixel depth of the screen using the colorDepth property.
+Document:
+The document object is a property of the window object and represents the DOM (Document Object Model) of the currently loaded web page. It provides methods and properties to manipulate and interact with the content and structure of the web page.
+
+It allows you to access and manipulate HTML elements, their attributes, and their content.
+It provides methods to add, modify, and remove elements from the web page.
+It can be used to manipulate the styles and classes of elements.
+It offers methods to query for elements using selectors (e.g., getElementById, querySelector).
+Window:
+The window object represents the browser window or tab that your web page is loaded in. It is the global object in a browser's JavaScript environment, and it provides various properties and methods that allow you to interact with and control the browser window.
+
+It acts as the global context for all JavaScript code running in a browser environment.
+It provides access to the document object, allowing you to manipulate the content of the currently loaded web page.
+It contains methods for working with timers (e.g., setTimeout, setInterval) and handling events.
+It can be used to open new browser windows or tabs using the window.open() method.
